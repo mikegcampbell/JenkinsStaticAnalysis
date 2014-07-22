@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: michaelcampbell
+Created-By: Apache Maven
+Build-Jdk: 1.6.0_65
+Extension-Name: clang-scanbuild-plugin
+Specification-Title: Provides an easy way to execute and report Clang 
+ scan-build errors using jenkins
+Implementation-Title: clang-scanbuild-plugin
+Implementation-Version: 1.5-SNAPSHOT
+Plugin-Class: jenkins.plugins.clangscanbuild.PluginImpl
+Group-Id: jenkins.plugins.clangscanbuild
+Short-Name: clang-scanbuild-plugin
+Long-Name: Clang Scan-Build Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Clang+Scan-Build+Plugin
+Plugin-Version: 1.5-SNAPSHOT (private-07/21/2014 22:45-michaelcampbell)
+Hudson-Version: 1.480
+Jenkins-Version: 1.480
+Plugin-Developers: Joshua Kennedy:jkennedy1980:josh@thosekennedys.com
+

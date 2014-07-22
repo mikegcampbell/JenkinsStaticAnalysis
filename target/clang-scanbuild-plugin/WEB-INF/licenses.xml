@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='jenkins.plugins.clangscanbuild' artifactId='clang-scanbuild-plugin' version='1.5-SNAPSHOT'>
+  <l:dependency name='Clang Scan-Build Plugin' groupId='jenkins.plugins.clangscanbuild' artifactId='clang-scanbuild-plugin' version='1.5-SNAPSHOT' url='http://wiki.jenkins-ci.org/display/JENKINS/Clang+Scan-Build+Plugin'>
+    <l:description>Provides an easy way to execute and report Clang scan-build errors using jenkins</l:description>
+  </l:dependency>
+</l:dependencies>

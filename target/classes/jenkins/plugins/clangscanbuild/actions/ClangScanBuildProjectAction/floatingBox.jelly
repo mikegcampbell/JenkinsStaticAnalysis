@@ -1,0 +1,14 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt" xmlns:local="local">
+
+	<j:if test="${from.buildDataExists()}">
+		<p/>
+		<div class="test-trend-caption">Clang scan-build trend</div>
+		
+		<div>
+			<img src="clangScanBuildTrend/graph" lazymap="clangScanBuildTrend/map"/>
+			<br/>
+			<a href="clangScanBuildTrend">enlarge</a>
+		</div>
+	</j:if>
+
+</j:jelly>
